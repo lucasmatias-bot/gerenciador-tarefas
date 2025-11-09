@@ -20,8 +20,7 @@ Desenvolver um sistema em linguagem **C** que auxilie o usuário a organizar e a
 ---
 
 ## Nome dos Autores
-**Lucas Matias dos Santos**
-**Vytor Rodrigues**
+**Lucas Matias dos Santos e Vytor Rodrigues**
 ---
 
 ## Etapas Futuras
