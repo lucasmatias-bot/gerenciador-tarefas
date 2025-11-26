@@ -48,6 +48,7 @@ pegar data direto do servido, sem precisar adicionar manualmente.
 Implementar a validação de formatos de dados utilizando expressões regulares, tornando o processo mais robusto e confiável.
 
 ## estrutura de pasta
+```
 Gerenciador de tarefas/
 ├── src/
 │   ├── main.c
@@ -72,7 +73,7 @@ Gerenciador de tarefas/
 ├── backup/
 │   ├── tarefas.txt
 └── .gitignore
-
+```
 ## Orientações de Compilação e Execução
 
 ### Compilação
