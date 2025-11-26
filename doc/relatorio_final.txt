@@ -1,0 +1,15 @@
+- Desafios encontrados:
+A principal dificuldade foi a modularização do código e a validação dos dados após a divisão em módulos.
+
+- Como resolveu:
+Para superar esses desafios, estudamos o uso de caminhos relativos e aprofundamos o entendimento sobre validação e entrada de dados, aplicando esses conceitos diretamente no projeto.
+
+- Aprendizados:
+- C: Aprendemos os fundamentos da linguagem, incluindo sintaxe, variáveis, tipos de dados, operadores, estruturas de controle de fluxo (if, for, while, switch) e funções.
+
+- Modularização: O projeto foi estruturado em múltiplos arquivos-fonte, cada um responsável por uma funcionalidade específica. Essa abordagem ensinou a importância de organizar o código em módulos menores, facilitando a manutenção e promovendo a reutilização.
+
+- Git: Aprendemos a criar repositórios, realizar commits, criar branches, abrir pull requests e revisar código de outros colaboradores. Essa prática mostrou como colaborar de forma eficiente em projetos de código aberto e gerenciar o histórico de alterações.
+
+- Melhorias futuras:
+Implementar a validação de formatos de dados utilizando expressões regulares, tornando o processo mais robusto e confiável.

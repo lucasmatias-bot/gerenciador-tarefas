@@ -1,0 +1,23 @@
+tarefa.h
+- Propósito: definir struct Tarefa e operações de manipulação.
+- Conteúdo: define MAX_TAREFAS; struct Tarefa; protótipos (adicionar, listar, marcar, excluir, validar índice).
+
+persistencia.h
+- Propósito: salvar e carregar tarefas do arquivo backup/tarefas.txt.
+- Conteúdo: protótipos salvarTarefas e carregarTarefas; inclui tarefa.h.
+
+entrada.h
+- Propósito: ler dados do usuário de forma segura.
+- Conteúdo: protótipos lerLinha, lerInteiro, limparEntrada.
+
+saida.h
+- Propósito: exibir títulos e mensagens formatadas, listar tarefas.
+- Conteúdo: protótipos exibirTitulo, exibirMensagem, exibirLista; inclui tarefa.h.
+
+processamento.h
+- Propósito: centralizar processamento da opção do menu.
+- Conteúdo: protótipo processarOpcao; inclui headers dos módulos que usa.
+
+tipos.h
+- Propósito: centralização futura de tipos comuns (se o projeto crescer).
+- Conteúdo: atualmente vazio ou reexporta tarefa.h (opcional).

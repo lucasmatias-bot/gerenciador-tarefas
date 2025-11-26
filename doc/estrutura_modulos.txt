@@ -1,0 +1,57 @@
+Módulo: Tarefa
+Arquivo: tarefa.c
+Header: tarefa.h
+Funções:
+  - adicionarTarefa;
+  - listarTarefas;
+  - marcarConcluida;
+  - excluirTarefa;
+  - validarIndiceTarefa.
+Dependências:
+  - entrada (para leitura de strings);
+  - saida (para mensagens e formatação opcional).
+
+Módulo: Persistência
+Arquivo: persistencia.c
+Header: persistencia.h
+Funções:
+  - salvarTarefas;
+  - carregarTarefas.
+Dependências:
+  - tarefa (usa struct Tarefa definida em tarefa.h).
+
+Módulo: Entrada
+Arquivo: entrada.c
+Header: entrada.h
+Funções:
+  - lerLinha;
+  - lerInteiro;
+  - limparEntrada.
+Dependências:
+  - nenhuma (stdio/string).
+
+Módulo: Saída
+Arquivo: saida.c
+Header: saida.h
+Funções:
+  - exibirTitulo;
+  - exibirMensagem;
+  - exibirLista.
+Dependências:
+  - tarefa (para listar tarefas).
+
+Módulo: Processamento
+Arquivo: processamento.c
+Header: processamento.h
+Funções:
+  - processarOpcao.
+Dependências:
+  - tarefa, persistencia, entrada, saida.
+
+Módulo: Interface (Main)
+Arquivo: main.c
+Header: (não possui)
+Funções:
+  - main.
+Dependências:
+  - processamento (orquestra chamadas).

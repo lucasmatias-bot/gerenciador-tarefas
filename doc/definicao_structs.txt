@@ -1,0 +1,12 @@
+Struct: Tarefa
+// Estrutura para armazenar uma tarefa 
+
+campos:
+  char descricao[100]; // descricao da tarefa
+  char data[20];       // data da tarefa
+  int concluida;       // variavel para indicar se a tarefa foi concluida
+
+
+Array de structs:
+  - Tarefa tarefas[MAX_TAREFAS];
+  - Tamanho máximo: 100 (ajustável por define).

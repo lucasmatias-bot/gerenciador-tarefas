@@ -1,0 +1,14 @@
+Etapa 1 – Análise do código atual (gerenciador de tarefas)
+
+Observações:
+- main.c estava longo e concentrava entrada, processamento, exibição e persistência.
+- Havia dados relacionados (descricao, data, concluida) que já estavam em struct Tarefa.
+- Repetição de padrões: leitura de strings com fgets, listagem, validação de índices.
+- Falta de separação de responsabilidades: main executava operações diretas no array.
+
+Oportunidades de melhoria:
+- Separar manipulação de tarefas em tarefa.c/tarefa.h.
+- Isolar persistência (salvar/carregar) em persistencia.c/persistencia.h.
+- Criar utilitários de entrada (leitura segura de linha) em entrada.c/entrada.h.
+- Criar funções de exibição em saida.c/saida.h (títulos, formatação).
+- Deixar main.c responsável apenas pelo menu e orquestração.

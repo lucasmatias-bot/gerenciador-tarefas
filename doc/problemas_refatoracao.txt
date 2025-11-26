@@ -1,0 +1,28 @@
+* Documentação dos Problemas Encontrados
+  Limite de dados:
+- Continua funcionando corretamente.
+  Validação de dados:
+- Não rejeitava entradas inválidas.
+- O programa aceitava dados inconsistentes, como letras em opções numéricas.
+  Tratamento de dados vazios:
+- Não funcionava adequadamente.
+- Ao pressionar apenas Enter, a entrada era considerada válida, mesmo estando vazia.
+
+* Problemas Identificados Durante a Refatoração
+- Erro de compilação inicial:
+  O código não compilava porque o caminho do arquivo de cabeçalho não estava corretamente declarado. Apenas o nome do arquivo foi informado, sem especificar a pasta include.
+- Validação incorreta:
+- Ao digitar letras nas opções de entrada, o programa entrava em loop infinito.
+- Ao deixar a entrada em branco, o programa interpretava como dado válido.
+
+* Como os Problemas Foram Descobertos
+- Durante a tentativa de compilação, o compilador retornou erro informando que o arquivo não foi encontrado.
+- Nos testes de execução, ao fornecer entradas inválidas (letras ou vazio), o comportamento incorreto ficou evidente.
+
+* Correções Realizadas
+- Ajustado o caminho correto dos arquivos de cabeçalho na declaração #include.
+- Refatoradas duas funções de entrada de dados para:
+ - Rejeitar dados vazios (não aceitar apenas Enter).
+ - Rejeitar dados inconsistentes (como letras em campos que exigem números).
+
+
